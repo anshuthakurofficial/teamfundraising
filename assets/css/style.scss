@@ -62,6 +62,9 @@ a.navbar-cta {
   right: 0;
   font-family: "Quicksand", serif;
 }
+.cShadow {
+  text-shadow: 1px 4px 9px #086bff;
+}
 .banner {
   position: relative;
   display: flex;
@@ -143,6 +146,7 @@ a.navbar-cta {
         margin: 0px;
         text-align: start;
         font-size: 16px;
+        font-weight: 500;
       }
       a {
         margin-top: 15px;
@@ -161,7 +165,7 @@ a.navbar-cta {
       height: 43px;
     }
     h5 {
-      font-weight: 600;
+      font-weight: 700;
     }
   }
 }
@@ -186,6 +190,16 @@ a.navbar-cta {
       width: 20px;
       height: 20px;
       margin-right: 10px;
+    }
+  }
+  .iframeContainer {
+    img {
+      width: 100%;
+      height: 710px;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 12px;
+      margin-bottom: 26px;
     }
   }
 }
@@ -522,6 +536,11 @@ footer {
         margin-right: 8px;
       }
     }
+    .iframeContainer {
+      img {
+        height: 264px;
+      }
+    }
   }
   .pricing {
     padding: 45px 0px;
@@ -581,7 +600,7 @@ footer {
     padding: 45px 35px;
     h3 {
       font-size: 34px;
-      border-bottom: 3px solid #b5aeae;
+      border-bottom: 3px solid var(--blue);
       text-align: center;
       width: 65%;
       margin: 0px auto;
