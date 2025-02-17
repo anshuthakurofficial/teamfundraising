@@ -111,7 +111,7 @@ a.navbar-cta {
   left: 0; /* Corrected to 0px */
   width: 100%; /* Added width */
   height: 100vh;
-  background-image: url("/assets/img/banner.png");
+  background-image: url("/assets/img/IMG-20250217-WA0003.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -197,6 +197,8 @@ a.navbar-cta {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 60px;
+  line-height: 60px;
 }
 .brandVideo a img {
   width: 20px;
@@ -215,7 +217,7 @@ a.navbar-cta {
 }
 
 .pricing {
-  padding: 125px 0px;
+  padding: 80px 0px;
 }
 .pricing h2,
 .pricing h3 {
@@ -235,7 +237,7 @@ a.navbar-cta {
 .pricing p {
   text-align: center;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 24px;
 }
 
 .overWhelmed h3 {
@@ -264,7 +266,7 @@ a.navbar-cta {
 }
 
 .plan {
-  padding: 75px 0px;
+  padding: 75px 0px 40px 0px;
 }
 .plan h3 {
   font-size: 50px;
@@ -299,7 +301,7 @@ a.navbar-cta {
 }
 
 .stakes {
-  padding: 75px 0;
+  padding: 40px 0 75px 0;
 }
 .stakes h3 {
   font-size: 44px;
